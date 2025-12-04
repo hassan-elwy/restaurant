@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/fontawesome-free-7.1.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/assests.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex justify-content-between">
+
+            <div class="logo">
+                <div class="fontwrapper mx-3">
+                    <i class="fa-solid fa-utensils"></i>
+
+                </div>
+                <div class="wordwrapper">
+                    <h4 class="p-0 m-0">what's for dinner</h4>
+
+                    <p class="p-0 m-0">Your daily meal inspiration</p>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+
+            <div class=" collapse  mx-0  navbar-collapse flex-grow-0" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa-regular fa-bookmark"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-clock-rotate-left"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <div class="imgwraper">
+                            <img src="./images/avatar-4.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="menu py-4 " id="mymenu">
+        <div class="containe  p-0 m-0">
+
+            <div class="innerBody d-flex flex-column flex-xl-row bg-white justify-content-evenly p-0">
+                <div class="lh d-flex p-0"> 
+                    <div class="container imgcontain position-relative">
+
+                        <div class="badge  rounded-pill rating">
+                            <i class="fa-solid fa-star" style="color:gold;"></i> 4.5<span class="text-body-tertiary">(234 reviews)</span>
+
+                        </div>
+                        <div class="infocard badge rounded-3 d-flex justify-content-around text-black">
+                        
+                            <div class="infoItem d-flex justify-content-around align-items-center flex-column py-3">
+                                <div class="fa-solid fa-clock fs-3"></div>
+                                <p class="fs-6 text-secondary">prep time</p>
+                                <h6>20 min</h6>
+
+                                
+                            </div>
+                            
+                            <div class="infoItem d-flex justify-content-around align-items-center flex-column py-3">
+                                <div class="fa-solid fa-fire-burner text-danger fs-3"></div>
+                                <p class="fs-6 text-secondary">Cook Time</p>
+                                <h6>20 min</h6>
+
+                                
+                            </div>
+                            
+                            
+                            <div class="infoItem d-flex justify-content-around align-items-center flex-column py-3 ">
+                                <div class="fa-solid fa-people-group text-primary fs-3"></div>
+                                <p class="fs-6 text-secondary">Servings</p>
+                                <h6>20 min</h6>
+
+                                
+                            </div>
+                            
+                            
+                        </div>
+                        <img src="./images/photo-1546069901-ba9599a7e63c.avif">
+                        
+
+
+                    </div>
+                </div>
+                <div class="rhs justify-content-start px-5 w-75">
+                    <span class=" badge text-white fs-6 rounded-pill bg-success">easy</span>
+                    <span class=" badge text-white fs-6 rounded-pill bg-primary">Mediterranean</span>
+                    <h1>${contents[counter].h1}</h1>
+                    <p>${contents[counter].p}</p>
+
+                    <P class="nav align-items-baseline"><i class="fa-solid fa-list-check mx-1"></i>Ingreditents</P>
+                    <div class="line my-3">
+                    </div>
+
+
+                    <ul id="listing">
+                        ${iterator(counter)}
+                    </ul>
+                    <button class="" onclick="change( )"><span>Try another recipe</span></button>
+
+                    <div class="line my-3"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

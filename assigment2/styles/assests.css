@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.fontwrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: linear-gradient(orange,orangered);
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+ 
+}
+.imgwraper
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: orangered 2px solid;
+    overflow:hidden ;
+    
+
+}
+.imgwraper img
+{
+    width:100%;
+}
+
+.navbar
+{
+    padding-inline:10%;
+}
+
+.menu
+{
+    padding-inline:10%;
+}
+.innerBody
+{
+    width: fit-content;
+  
+}
+.imgcontain.container {
+    width: 100%;
+  
+    
+   
+}
+
+.rating
+{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 5%;
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+    padding-block: 20px;
+}
+.infocard
+{
+    width: 90%;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    translate: -50% 0;
+    bottom: 5%;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px;
+    
+}
+.fa-clock
+{
+    color: #FF6900;
+}
+
+.imgcontain
+{
+
+overflow: hidden;
+
+}
+.container img {
+    width: 100%;
+    height: 100%;
+     
+    scale:1.4;
+    
+}
+
+.active.buttonSizes
+{
+   height: 100px;
+   font-size: 10px;
+   display: block;
+}
+.nav
+{
+    color:orangered;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.nav::after
+{
+    position: absolute;
+    bottom: 0;
+   content:" ";
+    height: 2px;
+    
+    width: 100%;
+    background-color: orangered;
+}
+.menu{
+    background-color: rgba(255,0,0,0.1);
+  
+    
+}
+.rhs
+{
+ 
+    padding-top: 20px;
+    padding-inline: 50px;
+    overflow-y: scroll;
+
+    
+    
+    
+}
+h1{
+    margin-block: 20px;
+}
+.row
+{
+
+    background-color: white;
+    
+}
+.line
+{
+    height: 2px;
+    background-color:whitesmoke;
+
+}
+
+ul#listing
+{
+
+    list-style:none;
+    border-radius: 10px;
+    background-color: rgba(255,0,0,0.1);
+    padding: 10px;
+
+}
+ul#listing li
+{
+
+margin-block:20px;
+}
+
+ul#listing span
+{
+    font-weight: 600;
+    display: inline-block;
+    background-color:#FF6900;
+    border-radius:100% ;
+   padding-inline: 10px;
+    width: fit-content;
+    color: white;
+    margin-right: 5px;
+  
+}
+
+ul#listing
+{
+    margin-block: 20px;
+}
+
+button
+{
+   
+    padding: 10px;
+    padding-inline: 30px;
+    border:none;
+    background-image: linear-gradient(to right,#F54900,#FB3034);
+        border-radius: 10px;
+
+}
+button span
+{
+    color: white;
+    font-size:large;
+}
